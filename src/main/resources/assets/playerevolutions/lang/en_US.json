@@ -1,3 +1,4 @@
 {
-  "item.playerevolution.ruby": "Ruby"
+  "item.playerevolutions.ruby": "Ruby",
+  "itemGroup.playerEvolutionItems": "Player Evolution"
 }

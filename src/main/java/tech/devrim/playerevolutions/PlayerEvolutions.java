@@ -1,6 +1,8 @@
 package tech.devrim.playerevolutions;
 
 
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraftforge.fml.common.Mod;
@@ -27,4 +29,11 @@ public class PlayerEvolutions
     private void setup(final FMLCommonSetupEvent event) { }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
+
+    public static final ItemGroup TAB = new ItemGroup("playerEvolutionItems") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.RUBY.get());
+        }
+    };
 }
