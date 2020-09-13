@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "MOD_ID:blocks/BLOCK_NAME"
+    "all": "playerevolutions:blocks/ruby_block"
   }
 }
