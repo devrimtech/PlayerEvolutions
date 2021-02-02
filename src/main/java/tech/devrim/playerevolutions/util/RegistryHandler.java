@@ -22,7 +22,7 @@ public class RegistryHandler {
     }
 
     //Items
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> DEATHNOTE = ITEMS.register("deathnote", ItemBase::new);
 
     // Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
