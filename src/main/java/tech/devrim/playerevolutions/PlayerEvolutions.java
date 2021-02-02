@@ -33,7 +33,7 @@ public class PlayerEvolutions
     public static final ItemGroup TAB = new ItemGroup("playerEvolutionItems") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY.get());
+            return new ItemStack(RegistryHandler.ULTRON.get());
         }
     };
 }
