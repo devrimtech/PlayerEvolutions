@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "playerevolutions:blocks/ruby_block"
+    "all": "playerevolutions:blocks/rick"
   }
 }

@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import tech.devrim.playerevolutions.PlayerEvolutions;
 import tech.devrim.playerevolutions.blocks.BlockItemBase;
-import tech.devrim.playerevolutions.blocks.RubyBlock;
+import tech.devrim.playerevolutions.blocks.RickBlock;
 import tech.devrim.playerevolutions.items.ItemBase;
 
 public class RegistryHandler {
@@ -22,11 +22,11 @@ public class RegistryHandler {
     }
 
     //Items
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> RICK = ITEMS.register("rick", ItemBase::new);
 
     // Blocks
-    public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> RICK_BLOCK = BLOCKS.register("rick_block", RickBlock::new);
 
     //Block Items
-    public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> RICK_BLOCK_ITEM = ITEMS.register("rick_block", () -> new BlockItemBase(RICK_BLOCK.get()));
 }
