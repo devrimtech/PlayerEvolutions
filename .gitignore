@@ -27,3 +27,4 @@ local.properties
 *.launch
 .cproject
 .buildpath
+.DS_Store
